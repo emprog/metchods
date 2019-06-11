@@ -15,6 +15,16 @@ public class Main {
         return a + b;
     }
 
+
+
+    // Home work:
+    // Cerate sub method
+    // Create mult method
+    // void and int
+
+
+
+
     public static void main(String[] args) {
         increment(1);
 
@@ -32,6 +42,8 @@ public class Main {
 //        System.out.println("Summ 3 + 5 = "  + summ(incrementAndReturn(1), incrementAndReturn(1)));
 
 //        System.out.println("Function as value: " + summ(1, incrementAndReturn(summ(incrementAndReturn(1),incrementAndReturn(1))) ));
+
+        
 
     }
 }
