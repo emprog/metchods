@@ -2,12 +2,12 @@ public class Main {
 
     public static void increment(int digit) {
         digit = digit + 1;
-        System.out.println("Инкрементированнное число: " + digit);
+        System.out.println("Increments: " + digit);
     }
 
     public static int incrementAndReturn(int digit) {
         digit = digit + 1;
-        System.out.println("Инкреметированное и возвращенное число: " + digit);
+        System.out.println("Increments and return: " + digit);
         return digit;
     }
 
@@ -22,16 +22,16 @@ public class Main {
 
         int x = incrementAndReturn(10);
 
-//        System.out.println("Инкреметированное и возвращенное число: " + x);
+//        System.out.println("Increments and return: " + x);
 
-//        System.out.println("Сумма 3 + 5 = "  + summ(10, 5));
+//        System.out.println("Summ 3 + 5 = "  + summ(10, 5));
 
-//        System.out.println("Сумма 3 + 5 = "  + summ(1, incrementAndReturn(1)));
-//        System.out.println("Сумма 3 + 5 = "  + summ(incrementAndReturn(1), 1));
+//        System.out.println("Summ 3 + 5 = "  + summ(1, incrementAndReturn(1)));
+//        System.out.println("Summ 3 + 5 = "  + summ(incrementAndReturn(1), 1));
 
-//        System.out.println("Сумма 3 + 5 = "  + summ(incrementAndReturn(1), incrementAndReturn(1)));
+//        System.out.println("Summ 3 + 5 = "  + summ(incrementAndReturn(1), incrementAndReturn(1)));
 
-//        System.out.println("Передаем в качестве значения функцию: " + summ(1, incrementAndReturn(summ(incrementAndReturn(1),incrementAndReturn(1))) ));
+//        System.out.println("Function as value: " + summ(1, incrementAndReturn(summ(incrementAndReturn(1),incrementAndReturn(1))) ));
 
     }
 }
